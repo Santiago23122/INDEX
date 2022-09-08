@@ -1,0 +1,48 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#header {
+	margin: auto;
+	width: 820px;
+	font-fam5ly: Arial, Helvetica;
+}
+
+ul, ol {
+	list-style: none;
+}
+.menu li a{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 15px 20px; 
+	display: block;
+}
+.menu li a:hover {
+	background-color: blue;
+}
+
+.menu > li {
+	float: left;
+}
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 200px;
+}
+.menu li:hover > ul{
+	display: block;
+}
+#botonarriba{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	border-radius: 80%;
+	display: flex;
+	color: white;
+	align-items: center;
+	cursor: pointer;
+	border: 8px solid transparent;
+}

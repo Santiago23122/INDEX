@@ -1,0 +1,199 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#header {
+	margin: auto;
+	width: 785px;
+	font-fam5ly: Arial, Helvetica;
+}
+
+ul, ol {
+	list-style: none;
+}
+.menu li a{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 15px 20px; 
+	display: block;
+}
+.menu li a:hover {
+	background-image: url(imagenes/fondo11.jpeg);
+}
+
+.menu > li {
+	float: left;
+}
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+.menu li:hover > ul{
+	display: block;
+}
+
+
+h1{
+	text-align: center;
+	color: blue;
+}
+
+}
+.menu2{
+	padding: 70px;
+}
+h2{
+	color: blue;
+}
+.menu3 img{
+	
+	padding: 5px;
+	margin: auto;
+	border-width: 300px;
+	width: 300px;
+}
+body{
+	border-left: solid;
+	border-width: 55px;
+	border-color: blue;
+	border-right: solid;
+	border-width: 55px ;
+	border-color: blue;
+	text-align: center;
+	padding: 20px;
+}
+video{
+	text-align: center;
+	width: 700px;
+}
+.fondo1{
+	background: linear-gradient(rgba(2, 5, 9, 0.30),rgba(2,5,9, 0.30)), url(imagenes/fondo2.jpg) no-repeat center
+	center fixed;
+	background-size: cover;
+}
+
+#fondo2{
+	background: linear-gradient(rgba(2, 5, 9, 0.30),rgba(2,5,9, 0.30)), url(imagenes/fondo10.jpg) no-repeat center
+  center fixed;
+  background-size: cover;
+}
+
+.fondo2{
+	height: 500px;
+	background: url(imagenes/fondop1.jpg);
+}
+
+#fondo3{
+	background: linear-gradient(rgba(2, 5, 9, 0.30),rgba(2,5,9, 0.30)), url(imagenes/fondo11.jpeg) no-repeat center
+  center fixed;
+  background-size: cover;
+}
+.fondo3{
+
+	height: 500px;
+	background: url(imagenes/fondo4.jpg);
+}
+
+#fondo4{
+		background: linear-gradient(rgba(2, 5, 9, 0.40),rgba(2,5,9, 0.40)), url(imagenes/fondo12.jpg) no-repeat center
+	center fixed;
+	background-size: cover
+}
+
+.fondo4{
+	height: 500px;
+	background: url(imagenes/fondo5.jpg); 
+
+}
+
+#fondo5{
+		background: linear-gradient(rgba(2, 5, 9, 0.40),rgba(2,5,9, 0.40)), url(imagenes/fondo13.jpg) no-repeat center
+	center fixed;
+	background-size: cover
+}
+
+.fondo5{
+	height: 500px;
+	background: url(imagenes/fondo6.jpg); 
+}
+
+#fondo6{
+		background: linear-gradient(rgba(2, 5, 9, 0.40),rgba(2,5,9, 0.40)), url(imagenes/fondo12.jpg) no-repeat center
+	center fixed;
+	background-size: cover
+}
+
+.fondo6{
+	height: 500px;
+	background: url(imagenes/fondo7.jpg); 
+}
+
+#fondo7{
+			background: linear-gradient(rgba(2, 5, 9, 0.40),rgba(2,5,9, 0.40)), url(imagenes/fondo15.jpg) no-repeat center
+	center fixed;
+	background-size: cover
+}
+
+.fondo7{
+	height: 500px;
+	background: url(imagenes/fondo8.jpg); 
+}
+
+.imagenes{
+padding: 120px;
+}
+.a{
+	padding: 120px;
+}
+.menu4 h3{
+	color: white;
+}
+.columna1{
+	
+	background: blue;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.columna2{
+	background: yellow;
+	overflow: hidden;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+	width: 500px;
+}
+.columna3{
+	background: green;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.xd{
+	background: #333333;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.blanco{
+	color: white;
+}
+#botonarriba{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	border-radius: 80%;
+	display: flex;
+	color: white;
+	align-items: center;
+	cursor: pointer;
+	border: 8px solid transparent;
+}
